@@ -1,2 +1,2 @@
 # LearnStats
-Learning and implementing statistical examples on textbook and tutorial. Written in R, Backup Only.
+Learning and implementing statistical examples on textbook and tutorial. Written in R, Backup Only. Using RStudio.
