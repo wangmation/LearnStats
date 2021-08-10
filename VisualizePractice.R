@@ -15,6 +15,7 @@ stem(data)
 
 # Box plot
 boxplot(data)
+<<<<<<< HEAD
 
 # Basic data process
 print(mean(data)) # Mean;Average
@@ -30,3 +31,4 @@ quantile(data) # Quantile
 
 sd(data)/mean(data) # SD/AVG
 sd(data)
+
