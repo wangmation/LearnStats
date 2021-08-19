@@ -13,6 +13,7 @@ label=c("Japan","China","USA","UK","Italy","Netherlands","Germany","France","Rus
 barplot(data1,xlab="Fertilization Supply",ylab="Rate%",main="World Fertilization Supply",names.arg = label)
 # names.arg = Labels
 
+<<<<<<< HEAD
 # Create a Table
 table=data.frame(
   Prefecture=c("Hokkaido","Tokyo","Osaka","Fukuoka"),
@@ -43,3 +44,9 @@ y2=cos(x)
 matplot(x,cbind(y1,y2),type='l',lwd=2) # cbind combines y1 and y2
 abline(h=0) # Add Line to plot with abline()
 
+=======
+# Create Mosaic Plot
+data2=matrix(c(3,6,7,4),nrow=2,ncol=2,byrow=TRUE)
+dimnames(data2)=list("Sex"=c("Female","Male"),"Prefer"=c("Like","Dislike"))
+mosaicplot(data2)
+>>>>>>> 7e1004865bf1c6dc5cfdc2d27a020242bceec9f4
