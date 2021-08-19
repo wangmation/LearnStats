@@ -13,4 +13,7 @@ label=c("Japan","China","USA","UK","Italy","Netherlands","Germany","France","Rus
 barplot(data1,xlab="Fertilization Supply",ylab="Rate%",main="World Fertilization Supply",names.arg = label)
 # names.arg = Labels
 
-
+# Create Mosaic Plot
+data2=matrix(c(3,6,7,4),nrow=2,ncol=2,byrow=TRUE)
+dimnames(data2)=list("Sex"=c("Female","Male"),"Prefer"=c("Like","Dislike"))
+mosaicplot(data2)
