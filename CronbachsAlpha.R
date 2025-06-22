@@ -18,6 +18,3 @@ library(psych)
 KMO_result=KMO(data)
 print(KMO_result)
 
-# Bartlett Calculate
-bartlett_result=cortest.bartlett(data)
-print(bartelett_result)
